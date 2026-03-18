@@ -2,9 +2,6 @@ server:
   port: 8084
 
 spring:
-  application:
-    name: prescription-service
-
   data:
     mongodb:
       uri: mongodb://localhost:27017/hospital
