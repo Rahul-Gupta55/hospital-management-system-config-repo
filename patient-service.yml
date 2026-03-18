@@ -1,11 +1,8 @@
-server:
-  port: 8081
-
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/patientdb
+    url: jdbc:mysql://localhost:3307/patientdb
     username: root
-    password: tiger
+    password: root
 
   jpa:
     hibernate:
